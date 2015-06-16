@@ -1,5 +1,8 @@
 console.log("Hello. This meeting is gonna be awesome!");
 
+$('body').prepend( "<div>Calibrateio</div>");
+
+
 
 chrome.extension.sendMessage({}, function(response) {
 	var readyStateCheckInterval = setInterval(function() {
